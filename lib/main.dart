@@ -3,12 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:random_dice/gradient_container.dart';
 
 void main() {
-  runApp(const MaterialApp(
-    home: Scaffold(
-      body: GradientContainer(
-        Color.fromARGB(255, 33, 5, 109),
-        Color.fromARGB(255, 33, 5, 109),
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        body: GradientContainer(
+          const Color.fromARGB(255, 33, 5, 109),
+          const Color.fromARGB(255, 33, 5, 109),
+        ),
       ),
     ),
-  ));
+  );
 }
